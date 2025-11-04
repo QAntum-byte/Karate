@@ -1,0 +1,23 @@
+{
+  // Associate .feature files with Karate syntax
+  "files.associations": {
+    "*.feature": "karate"
+  },
+
+  // Enable Karate Runner extension defaults
+  "karateRunner.karateJar": "",
+  "karateRunner.defaultTestRunner": "maven",
+  "karateRunner.useDebugTerminal": true,
+
+  // Optional: improves formatting & IntelliSense
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+  // Optional: cleaner terminal output
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+  // Recommended: hide unnecessary warning popups from cucumberautocomplete
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": false,
+  "karateRunner.editor.toggleResultsInGutter": false
+}

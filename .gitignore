@@ -1,0 +1,21 @@
+# Maven build output
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Logs and reports
+*.log
+*.tmp
+*.swp
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Karate reports
+karate-reports/
+surefire-reports/
